@@ -39,7 +39,7 @@ public class XmlReader
 		} catch (Exception ex) {
 			ErrorLog loadXMLLog = ErrorLogManager.createErrorLog();
 			loadXMLLog.TypeLog = 1;
-			loadXMLLog.ContentLog = "Could find file '"+ filePath +"'";
+			loadXMLLog.ContentLog = "Could find file '"+ filePath +"'.";
 			ErrorLogManager.addErrorLog(loadXMLLog);
 			ErrorLogManager.errorFlag = true;
 			return;
