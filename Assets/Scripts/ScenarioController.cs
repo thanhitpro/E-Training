@@ -18,7 +18,7 @@ namespace ETraining
 	{
 		private Texture2D emptyTex = null;
 	    private Texture2D myGUItexture = null;
-	    private string fileName = "";
+	    private string imageFileName = "";
 		public static string scenarioFileName = "sample.xml";
 	    
 		public bool hasAnyToolsChanged = false;
@@ -496,9 +496,9 @@ namespace ETraining
 	            //1. Display information
 				string taskImagePath = scenario[stepOrder].ListOfTask[taskOrder].ImagePath;
 				if( taskImagePath.Equals(""))
-	            	fileName = scenario[stepOrder].ImagePath;
-				else fileName = taskImagePath;
-	            displayInfo(fileName);
+	            	imageFileName = scenario[stepOrder].ImagePath;
+				else imageFileName = taskImagePath;
+	            displayInfo(imageFileName);
 				
 				// Set texture for Show Info Box on Right
 				ShowButtonInfo showInfoScript = GameObject.Find("ShowInfoButton").GetComponent(typeof(ShowButtonInfo)) as ShowButtonInfo;
@@ -633,9 +633,9 @@ namespace ETraining
 			
 				string taskImagePath = scenario[stepOrder].ListOfTask[taskOrder].ImagePath;
 				if( taskImagePath.Equals(""))
-	            	fileName = scenario[stepOrder].ImagePath;
-				else fileName = taskImagePath;
-	            displayInfo(fileName);
+	            	imageFileName = scenario[stepOrder].ImagePath;
+				else imageFileName = taskImagePath;
+	            displayInfo(imageFileName);
 				ShowButtonInfo showInfoScript = GameObject.Find("ShowInfoButton").GetComponent(typeof(ShowButtonInfo)) as ShowButtonInfo;
 				int widthOfInfoBox = showInfoScript.WidthOfInfoBox;
 				int width = myGUItexture.width;
