@@ -1,0 +1,3297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scenario id="scenario1" name="Disassemble car engine">
+  <description>
+    Scenario shows how to disassemble the whole car engine
+  </description>
+  <steps>
+    <step id="2" name="크랭크 샤프트 베어링 캡">
+      <image>info_step53.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0086_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0086_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0086_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0086_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0086_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0086_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0086_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="1" name="">
+        <description></description>
+        <component id="en0086_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="15" startOrder="14" endOrder="16">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <description></description>
+        <component id="en0086_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="17" startOrder="16" endOrder="18">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="" name="">
+        <description></description>
+        <component id="en0086_10" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="19" startOrder="18" endOrder="20">step57-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="11" groupid="1" name="">
+        <taskImage>info_step53_hand.png</taskImage>
+        <description></description>
+        <component id="en0087_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step57-task11</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="12" groupid="1" name="">
+        <taskImage>info_step53_hand.png</taskImage>
+        <description></description>
+        <component id="en0087_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step57-task12</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="13" groupid="1" name="">
+        <taskImage>info_step53_hand.png</taskImage>
+        <description></description>
+        <component id="en0087_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step57-task13</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="14" groupid="1" name="">
+        <taskImage>info_step53_hand.png</taskImage>
+        <description></description>
+        <component id="en0087_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step57-task14</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="15" groupid="" name="">
+        <taskImage>info_step53_hand.png</taskImage>
+        <description></description>
+        <component id="en0087_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step57-task15</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="3" name="크랭크 샤프트">
+      <image>info_step54_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0088" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step58</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="6" name="엔진 오일 배출">
+      <image>info_step2_1_hand.png</image>
+      <linkedInfo>52-Step2.1.swf</linkedInfo>
+      <task id="1" groupid="" name="">
+        <description>Take out 오일 게이지</description>
+        <component id="en0001" name="오일 게이지" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0002-en0001</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand" />
+        </tools>
+      </task>
+      <video>Step1.ogv</video>
+    </step>
+    <step id="7" name="상사점 맞추기">
+      <image>info_step1.png</image>
+      <video>Step1.ogv</video>
+      <task id="1" groupid="" name="Disassemble the hose">
+        <description>타이밍 마크 T 에 댐퍼풀리홈이 일치하도록 시계 방향으로 크랭크샤프트풀리를 회전시킨다.</description>
+        <component id="en0045" name="en0045"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step1-all</animation>
+        </animations>
+        <tools modelName="sorkets01">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="9" name="엔진 오일 배출">
+      <image>info_step2_2.png</image>
+      <linkedInfo>51-Step2.2.swf</linkedInfo>
+      <task id="1" groupid="group1" name="">
+        <description>Open 오일 배출</description>
+        <component id="en0100 1" name="오일 배출 플러그" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task3-en0100</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket" />
+          <tool id="connector" name="connector" />
+        </tools>
+      </task>
+      <video>Step1.ogv</video>
+    </step>
+    <step id="10" name="흡기 매니폴드">
+      <image>info_step3_1.png</image>
+      <linkedInfo>step-2.swf</linkedInfo>
+      <task id="1" groupid="" name="">
+        <taskImage>info_step3_1_hand.png</taskImage>
+        <description>Use hand to take out the hose</description>
+        <component id="EN_PCV_pipe_01" name="PCV 호스 분리"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">task4-5-6-7</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description>Use plier to open the round nut</description>
+        <component id="EN_PCV_pipe_02" name="PCV 호스 분리"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task4-5-6-7</animation>
+        </animations>
+        <tools modelName="EN_PCV_sorkets_01|EN_PCV_sorkets_02">
+          <tool id="plier" name="plier"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="11" name="흡기 매니폴드">
+      <image>info_step3_2.png</image>
+      <task id="1" groupid="" name="">
+        <description>Use plier to open the round nut PCSV</description>
+        <component id="en0160_1" name="흡기 매니폴드"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">task4-5-6-7</animation>
+        </animations>
+        <tools modelName="EN_PCV_sorkets_01|EN_PCV_sorkets_02">
+          <tool id="plier" name="plier"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="흡기 매니폴드">
+        <taskImage>info_step3_2_hand.png</taskImage>
+        <description>Use hand to take out the hose PCSV</description>
+        <component id="en0160" name="흡기 매니폴드"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">task4-5-6-7</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="12" name="흡기 매니폴드 스테이 분해">
+      <image>info_step3_3.png</image>
+      <task id="1" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0009_01 1" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0008-en0009_01 1</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="Take nut 2 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0009_03" name="Nut 2" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0009-en0009_03</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="Take nut 3 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0009_02 1" name="Nut 3" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0010-en0009_02 1</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="Take nut 4 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0009_04" name="Nut 4" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0011-en0009_04</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="Take last part out">
+        <taskImage>info_step3_3_hand.png</taskImage>
+        <description>Use hand to take out the hose PCSV</description>
+        <component id="en0010" name="pCsV 호스 분리" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0012-en0010</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="13" name="흡기 매니폴드">
+      <image>info_step3_4.png</image>
+      <linkedInfo>50-Step3.4.swf</linkedInfo>
+      <task id="1" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0101 1" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0013-en0101 1</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="EN_PCV_en0012_01_01 1" name="Nut 2" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0014-EN_PCV_en0012_01_01</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="EN_PCV_en0012_01_02 1" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0016-EN_PCV_en0012_01_02</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="Take manifold out">
+        <taskImage>info_step3_4_hand.png</taskImage>
+        <description>Use hand to take manifold out</description>
+        <component id="EN_PCV_en0012_02 1" name="Manifold" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">task4-5-6-7</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="14" name="배기 매니폴드">
+      <image>info_step4.png</image>
+      <task id="1" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_02" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0018-en0019_02</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_06" name="Nut 2" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0019-en0019_06</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_05" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0020-en0019_05</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_01" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0021-en0019_01</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_03" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0022-en0019_03</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_04" name="Nut 2" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0023-en0019_04</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_07" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0024-en0019_07</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="" name="Take nut 1 out">
+        <description>Use tool set to open nut</description>
+        <component id="en0019_08" name="Nut 1" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0025-en0019_08</animation>
+        </animations>
+        <tools modelName="sorkets03 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="" name="Take Cover hose">
+        <taskImage>info_step4_hand.png</taskImage>
+        <description>Use tool set to open nut</description>
+        <component id="en0020" name="Cover" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">task0026-en0020</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="16" name="에어컨 컴프레서">
+      <image>info_step6.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0003_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step10-task1</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0003_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step10-task2</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0003_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step10-task3</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0003_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step10-task4</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <taskImage>info_step6_hand.png</taskImage>
+        <description></description>
+        <component id="en0004" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step1-all</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="17" name="발전기">
+      <image>info_step7.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0005" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step11-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en00104" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step11-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <taskImage>info_step7_hand.png</taskImage>
+        <description></description>
+        <component id="en0006" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step1-all</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="18" name="아이들러 베어링">
+      <image>info_step8.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0014_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step12-task1-5</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0014_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step12-task1-5</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0014_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step12-task1-5</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0014_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step12-task1-5</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <description></description>
+        <component id="en0014_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step12-task1-5</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="" name="">
+        <taskImage>info_step8_hand.png</taskImage>
+        <description></description>
+        <component id="en0145 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step1-all</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="19" name="워터펌프">
+      <image>info_step9.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0026_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step13-task1</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0026_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step13-task2</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0026_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step13-task3</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0026_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step13-task4</animation>
+        </animations>
+        <tools modelName="sorkets04 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <taskImage>info_step9_hand.png</taskImage>
+        <description></description>
+        <component id="en0027" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step1-all</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="20" name="워터 파이프">
+      <image>info_step10.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0022 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step14-task1</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step10_hand.png</taskImage>
+        <description></description>
+        <component id="en0023" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step14-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="21" name="서머스탯 어셈블리">
+      <image>info_step11.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0024_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step15-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0024_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step15-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step11_hand.png</taskImage>
+        <description></description>
+        <component id="en0025" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step15-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="22" name="퍼지 콘트롤 솔레노이드 밸브(PSCV)">
+      <image>info_step12_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0160" name="PCV 호스 분리" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">task4-5-6-7</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="23" name="고압 연료 파이프">
+      <image>info_step13.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0008_02 1" name=""></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step17-task1-3</animation>
+        </animations>
+        <tools modelName="wrench01 1">
+          <tool id="wrench" name="wrench"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0008_03 1" name=""></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step17-task1-3</animation>
+        </animations>
+        <tools modelName="wrench01 1">
+          <tool id="wrench" name="wrench"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <taskImage>info_step13_hand.png</taskImage>
+        <description></description>
+        <component id="en0008_01 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step17-task1-3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="24" name="오일 레벨 게이지 가이드">
+      <image>info_step14_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0013" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step18-task1</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="25" name="인젝터">
+      <image>info_step15.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0104 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step19-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0105" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step19-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <description></description>
+        <component id="s" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step19-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <taskImage>info_step15_hand.png</taskImage>
+        <description></description>
+        <component id="en0011" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step19-task4</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="26" name="노크센터">
+      <image>info_step16_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0043" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step20</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="27" name="흡기 ocv">
+      <image>info_step17.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0041" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step21-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step17_hand.png</taskImage>
+        <description></description>
+        <component id="en0042" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step21-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <description></description>
+        <component id="en0037 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step21-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <taskImage>info_step17_hand.png</taskImage>
+        <description></description>
+        <component id="en0038" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step21-task4</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="28" name="흡기 행거">
+      <image>info_step18.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0039" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step22-task1</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step18_hand.png</taskImage>
+        <description></description>
+        <component id="en0040" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step22-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="30" name="배기 TDC 분해 ">
+      <image>info_step20.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0031 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step24-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0035 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step24-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <taskImage>info_step20_hand.png</taskImage>
+        <description></description>
+        <component id="en0032" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step24-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <taskImage>info_step20_hand.png</taskImage>
+        <description></description>
+        <component id="en0036" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step24-task4</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="31" name="배기 행거">
+      <image>info_step21.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0033" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step25-task1</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step21_hand.png</taskImage>
+        <description></description>
+        <component id="en0034" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step25-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="33" name="CKP(크랭크 각 센서) 커버">
+      <image>info_step23.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en00110" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step27-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en00109" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step27-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <taskImage>info_step23_hand.png</taskImage>
+        <description></description>
+        <component id="en0028" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step27-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="34" name="크랭커 각 센서(CKP) 센서">
+      <image>info_step24.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0029 1" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step28-task1</animation>
+        </animations>
+        <tools modelName="sorkets05 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step24_hand.png</taskImage>
+        <description></description>
+        <component id="en0030" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step28-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="35" name="고압 펌프">
+      <image>info_step25.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0046_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step29-task1</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0046_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step29-task2</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <taskImage>info_step25_hand.png</taskImage>
+        <description></description>
+        <component id="en0047" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step29-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="36" name="점화 코일">
+      <image>info_step26.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0048_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step30-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="speed" name="speed"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0048_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step30-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="speed" name="speed"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0048_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step30-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="speed" name="speed"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0048_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step30-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="speed" name="speed"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <taskImage>info_step26_hand.png</taskImage>
+        <description></description>
+        <component id="en0049_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step30-task5</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <taskImage>info_step26_hand.png</taskImage>
+        <description></description>
+        <component id="en0049_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step30-task6</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <taskImage>info_step26_hand.png</taskImage>
+        <description></description>
+        <component id="en0049_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step30-task7</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="" name="">
+        <taskImage>info_step26_hand.png</taskImage>
+        <description></description>
+        <component id="en0049_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step30-task8</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="37" name="점화 플러그">
+      <image>info_step27.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en00111" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step31-task1</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="longsocket" name="longsocket"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en00112" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step31-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="longsocket" name="longsocket"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en00113" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step31-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="longsocket" name="longsocket"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en00114" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step31-task4</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="longsocket" name="longsocket"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="38" name="실린더 헤드 커버">
+      <image>info_step28.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0050_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task1</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0050_12" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task2</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0050_15" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task3</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0050_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task4</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0050_13" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task5</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0050_11" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task6</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0050_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task7</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="1" name="">
+        <description></description>
+        <component id="en0050_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task8</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <description></description>
+        <component id="en0050_16" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task9</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="1" name="">
+        <description></description>
+        <component id="en0050_19" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task10</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="11" groupid="1" name="">
+        <description></description>
+        <component id="en0050_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task11</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="12" groupid="1" name="">
+        <description></description>
+        <component id="en0050_14" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task12</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="13" groupid="1" name="">
+        <description></description>
+        <component id="en0050_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task13</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="14" groupid="1" name="">
+        <description></description>
+        <component id="en0050_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task14</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="15" groupid="1" name="">
+        <description></description>
+        <component id="en0050_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task15</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="16" groupid="1" name="">
+        <description></description>
+        <component id="en0050_17" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task16</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="17" groupid="1" name="">
+        <description></description>
+        <component id="en0050_18" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task17</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="18" groupid="" name="">
+        <description></description>
+        <component id="en0050_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task18</animation>
+        </animations>
+        <tools modelName="sorkets06 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="19" groupid="" name="">
+        <taskImage>info_step28_hand.png</taskImage>
+        <description></description>
+        <component id="en0051" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step32-task19</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="39" name="고압 펌프 스테이">
+      <image>info_step29_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0052" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step33</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="40" name="오일필터">
+      <image>info_step30.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0016_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step34</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="plieroilfilter" name="plieroilfilter"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="41" name="오일 쿨러">
+      <image>info_step31.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0017_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step35-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0017_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step35-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <taskImage>info_step31_hand.png</taskImage>
+        <description></description>
+        <component id="en0018" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step35-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="42" name="크랭크축 풀리">
+      <image>info_step32_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0044" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step36-task1</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0045" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step1-all</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="43" name="에어컨 브라켓">
+      <image>info_step33.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0053_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step37-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0053_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step37-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0053_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step37-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0053_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step37-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <taskImage>info_step33_hand.png</taskImage>
+        <description></description>
+        <component id="en0054" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step37-task5</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="44" name="오일팬">
+      <image>info_step34.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0055_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task1</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0055_12" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task2</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0055_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task3</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0053_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task4</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0055_11" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task5</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0055_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task6</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0055_10" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task7</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="1" name="">
+        <description></description>
+        <component id="en0055_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task8</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <description></description>
+        <component id="en0055_13" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task9</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="1" name="">
+        <description></description>
+        <component id="en0055_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task10</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="11" groupid="1" name="">
+        <description></description>
+        <component id="en0053_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task11</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="12" groupid="1" name="">
+        <description></description>
+        <component id="en0055_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task12</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="13" groupid="1" name="">
+        <description></description>
+        <component id="en0055_14" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task13</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="14" groupid="1" name="">
+        <description></description>
+        <component id="en0055_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task14</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="15" groupid="1" name="">
+        <description></description>
+        <component id="en0053_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task15</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="16" groupid="1" name="">
+        <description></description>
+        <component id="en0055_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task16</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="17" groupid="1" name="">
+        <description></description>
+        <component id="en0055_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task17</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="18" groupid="" name="">
+        <description></description>
+        <component id="en0055_15" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task18</animation>
+        </animations>
+        <tools modelName="sorkets08 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="19" groupid="" name="">
+        <taskImage>info_step34_hand.png</taskImage>
+        <description></description>
+        <component id="en0056" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step38-task19</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="45" name="타이밍 커버">
+      <image>info_step35.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0057_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task1</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0057_11" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task2</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0057_10" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task3</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0057_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task4</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0057_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task5</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0057_13" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task6</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0057_14" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task7</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="1" name="">
+        <description></description>
+        <component id="en0057_15" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task8</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <description></description>
+        <component id="en0057_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task9</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="1" name="">
+        <description></description>
+        <component id="en0057_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task10</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="11" groupid="1" name="">
+        <description></description>
+        <component id="en0057_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task11</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="12" groupid="1" name="">
+        <description></description>
+        <component id="en0057_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task12</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="13" groupid="1" name="">
+        <description></description>
+        <component id="en0057_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task13</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="14" groupid="" name="">
+        <description></description>
+        <component id="en0057_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task14</animation>
+        </animations>
+        <tools modelName="sorkets07 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="15" groupid="" name="">
+        <taskImage>info_step35_hand.png</taskImage>
+        <description></description>
+        <component id="en0058" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step39-task15</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="46" name="타이밍 체인 텐셔너">
+      <image>info_step36.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0059_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step40-task1-2</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step36_hand.png</taskImage>
+        <description></description>
+        <component id="en0060" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step40-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="47" name="타이밍 체인 텐셔너 암/타이밍 체인가이드">
+      <image>info_step37.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0063_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step41-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0061_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step41-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0061_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step41-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en00120" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step41-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <taskImage>info_step37_hand.png</taskImage>
+        <description></description>
+        <component id="en0064" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step41-task5</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="" name="">
+        <taskImage>info_step37_hand.png</taskImage>
+        <description></description>
+        <component id="en0062" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step41-task6</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="48" name="타이밍 체인">
+      <image>info_step38_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0065" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step42</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="49" name="타이밍 체인 오일젯">
+      <image>info_step39.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0070_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step43-task1</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <taskImage>info_step39_hand.png</taskImage>
+        <description></description>
+        <component id="en0070_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step43-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="50" name="오일 펌프 체인 텐셔너 및 가이드">
+      <image>info_step40.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0066_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step44-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0066_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step44-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="" name="">
+        <description></description>
+        <component id="en0066_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step44-task1-3</animation>
+        </animations>
+        <tools modelName="sorkets09 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <taskImage>info_step40_hand.png</taskImage>
+        <description></description>
+        <component id="en0067" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step44-task4</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <taskImage>info_step40_hand.png</taskImage>
+        <description></description>
+        <component id="en0068" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step44-task5</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="51" name="오일 펌프 체인">
+      <image>info_step41_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0069" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step45-task1</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="52" name="타이밍 체인용 크랭크 샤프트 체인 스프로킷">
+      <image>info_step42_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0071" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step46</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="53" name="캠 샤프트 베어링 캡">
+      <image>info_step43.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0072_20" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0072_19" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0072_18" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0072_17" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0072_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0072_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0072_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="1" name="">
+        <description></description>
+        <component id="en0072_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="15" startOrder="14" endOrder="16">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <description></description>
+        <component id="en0072_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="17" startOrder="16" endOrder="18">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="1" name="">
+        <description></description>
+        <component id="en0072_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="19" startOrder="18" endOrder="20">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="11" groupid="1" name="">
+        <description></description>
+        <component id="en0072_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="21" startOrder="20" endOrder="22">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="12" groupid="1" name="">
+        <description></description>
+        <component id="en0072_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="23" startOrder="22" endOrder="24">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="13" groupid="1" name="">
+        <description></description>
+        <component id="en0072_10" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="25" startOrder="24" endOrder="26">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="14" groupid="1" name="">
+        <description></description>
+        <component id="en0072_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="27" startOrder="26" endOrder="28">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="15" groupid="1" name="">
+        <description></description>
+        <component id="en0072_11" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="29" startOrder="28" endOrder="30">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="16" groupid="1" name="">
+        <description></description>
+        <component id="en0072_12" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="31" startOrder="30" endOrder="32">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="17" groupid="1" name="">
+        <description></description>
+        <component id="en0072_14" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="33" startOrder="32" endOrder="34">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="18" groupid="1" name="">
+        <description></description>
+        <component id="en0072_13" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="35" startOrder="34" endOrder="36">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="19" groupid="1" name="">
+        <description></description>
+        <component id="en0072_16" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="37" startOrder="36" endOrder="38">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="20" groupid="" name="">
+        <description></description>
+        <component id="en0072_15" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="39" startOrder="38" endOrder="40">step47-task1-20</animation>
+        </animations>
+        <tools modelName="sorkets10 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="21" groupid="" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task21</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="22" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task22</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="23" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task23</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="24" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task24</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="25" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task25</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="26" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task26</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="27" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task27</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="28" groupid="1" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task28</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="29" groupid="" name="">
+        <taskImage>info_step43_hand.png</taskImage>
+        <description></description>
+        <component id="en0073_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step47-task29</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="54" name="캠 샤프트">
+      <image>info_step44_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0074_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step48-task1</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="" name="">
+        <description></description>
+        <component id="en0074_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step48-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="55" name="실린더 헤드 볼트">
+      <image>info_step45.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0075_09" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0075_10" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0075_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0075_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0075_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0075_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0075_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="1" name="">
+        <description></description>
+        <component id="en0075_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="15" startOrder="14" endOrder="16">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <description></description>
+        <component id="en0075_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="17" startOrder="16" endOrder="18">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="1" name="">
+        <description></description>
+        <component id="en0075_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="19" startOrder="18" endOrder="20">step49-task1-10</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="56" name="실린더 헤드">
+      <image>info_step46_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0094" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step50</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="57" name="가스킷 분해">
+      <image>info_step47_hand.png</image>
+      <task id="1" groupid="" name="">
+        <description></description>
+        <component id="en0093" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step51</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="58" name="오일 펌프 어셈블리">
+      <image>info_step48.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0077_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step52-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0077_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step52-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0077_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step52-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0077_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step52-task1-4</animation>
+        </animations>
+        <tools modelName="sorkets11 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="" name="">
+        <taskImage>info_step48_hand.png</taskImage>
+        <description></description>
+        <component id="en0078" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step52-task5</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="59" name="플라이 휠">
+      <image>info_step49.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0080_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0080_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0080_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0080_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0080_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0080_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="" name="">
+        <description></description>
+        <component id="en0080_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step53-task1-7</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="" name="">
+        <taskImage>info_step49_hand.png</taskImage>
+        <description></description>
+        <component id="en0081" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step53-task8</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="60" name="레더 프레임">
+      <image>info_step50.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0079_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0079_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0079_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0079_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0079_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0079_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="" name="">
+        <description></description>
+        <component id="en0079_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step54-task1-6</animation>
+        </animations>
+        <tools modelName="sorkets12 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="" name="">
+        <taskImage>info_step50_hand.png</taskImage>
+        <description></description>
+        <component id="en0083" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step54-task7</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="61" name="커넥팅로드 베어링 캡">
+      <image>info_step51.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0084_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0084_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="3" startOrder="2" endOrder="4">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0084_05" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="5" startOrder="4" endOrder="6">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="1" name="">
+        <description></description>
+        <component id="en0084_06" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="7" startOrder="6" endOrder="8">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="5" groupid="1" name="">
+        <description></description>
+        <component id="en0084_08" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="9" startOrder="8" endOrder="10">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="6" groupid="1" name="">
+        <description></description>
+        <component id="en0084_07" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="11" startOrder="10" endOrder="12">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="7" groupid="1" name="">
+        <description></description>
+        <component id="en0084_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="13" startOrder="12" endOrder="14">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="8" groupid="" name="">
+        <description></description>
+        <component id="en0084_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="15" startOrder="14" endOrder="16">step55-task1-8</animation>
+        </animations>
+        <tools modelName="sorkets13 1">
+          <tool id="socket" name="socket"></tool>
+          <tool id="connector" name="connector"></tool>
+          <tool id="extension" name="extension"></tool>
+        </tools>
+      </task>
+      <task id="9" groupid="1" name="">
+        <taskImage>info_step51_hand.png</taskImage>
+        <description></description>
+        <component id="en0085_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step55-task9</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="10" groupid="1" name="">
+        <taskImage>info_step51_hand.png</taskImage>
+        <description></description>
+        <component id="en0085_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step55-task10</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="11" groupid="1" name="">
+        <taskImage>info_step51_hand.png</taskImage>
+        <description></description>
+        <component id="en0085_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step55-task11</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="12" groupid="" name="">
+        <taskImage>info_step51_hand.png</taskImage>
+        <description></description>
+        <component id="en0085_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step55-task12</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="62" name="피스톤">
+      <image>info_step52_hand.png</image>
+      <task id="1" groupid="1" name="">
+        <description></description>
+        <component id="en0089_01" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step56-task1</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="2" groupid="1" name="">
+        <description></description>
+        <component id="en0089_02" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step56-task2</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="3" groupid="1" name="">
+        <description></description>
+        <component id="en0089_03" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step56-task3</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+      <task id="4" groupid="" name="">
+        <description></description>
+        <component id="en0089_04" name="" hideAfterDisassembled="true"></component>
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">step56-task4</animation>
+        </animations>
+        <tools modelName="">
+          <tool id="hand" name="hand"></tool>
+        </tools>
+      </task>
+    </step>
+    <step id="65" name="">
+      <task id="0" />
+    </step>
+    <step id="66" name="">
+      <task id="0" />
+    </step>
+  </steps>
+</scenario>

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Video/Scripts/C#/PlayMovie.cs">
+    <Files>
+      <File FileName="Assets/Material/GUI Skin/Video Control/VideoButton.cs" Line="99" Column="31" />
+      <File FileName="Assets/Scripts/Video/Scripts/C#/PlayMovie.cs" Line="64" Column="82" />
+      <File FileName="Assets/Scripts/ScenarioController.cs" Line="215" Column="93" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Macintosh HD/E-Training SVN/Assets/Material/GUI Skin/Video Control/VideoButton.cs" line="97" />
+      <Breakpoint file="/Volumes/Macintosh HD/E-Training SVN/Assets/Scripts/Video/Scripts/C#/PlayMovie.cs" line="119" />
+      <Breakpoint file="/Volumes/Macintosh HD/E-Training SVN/Assets/Scripts/Video/Scripts/C#/PlayMovie.cs" line="117" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

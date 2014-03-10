@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 1f649b3817a0086468b8e924fbeed35c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: en0004
+    100002: en0006
+    100004: en00121
+    100006: en0015
+    100008: en0027
+    100010: en0045
+    100012: en0142
+    100014: en0143
+    100016: en0144
+    100018: en0145
+    100020: en0146
+    100022: en0147
+    100024: en0148
+    100026: en0149
+    100028: sorkets01
+    100030: //RootNode
+    400000: en0004
+    400002: en0006
+    400004: en00121
+    400006: en0015
+    400008: en0027
+    400010: en0045
+    400012: en0142
+    400014: en0143
+    400016: en0144
+    400018: en0145
+    400020: en0146
+    400022: en0147
+    400024: en0148
+    400026: en0149
+    400028: sorkets01
+    400030: //RootNode
+    2300000: en0004
+    2300002: en0006
+    2300004: en00121
+    2300006: en0015
+    2300008: en0027
+    2300010: en0045
+    2300012: en0142
+    2300014: en0143
+    2300016: en0144
+    2300018: en0145
+    2300020: en0146
+    2300022: en0147
+    2300024: en0148
+    2300026: en0149
+    2300028: sorkets01
+    3300000: en0004
+    3300002: en0006
+    3300004: en00121
+    3300006: en0015
+    3300008: en0027
+    3300010: en0045
+    3300012: en0142
+    3300014: en0143
+    3300016: en0144
+    3300018: en0145
+    3300020: en0146
+    3300022: en0147
+    3300024: en0148
+    3300026: en0149
+    3300028: sorkets01
+    4300000: en0027
+    4300002: en00121
+    4300004: en0006
+    4300006: en0145
+    4300008: en0004
+    4300010: en0146
+    4300012: en0015
+    4300014: en0142
+    4300016: en0144
+    4300018: en0143
+    4300020: en0148
+    4300022: en0149
+    4300024: en0147
+    4300026: en0045
+    4300028: sorkets01
+    7400000: Take 001
+    7400002: en0045_end
+    7400004: en0045-tool
+    7400006: idle
+    7400008: en0045
+    7400010: en0045-tool_end
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: en0045
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: en0045-tool
+      takeName: Take 001
+      firstFrame: 39
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: en0004
+        weight: 0
+      - path: en0004/en0146
+        weight: 0
+      - path: en0006
+        weight: 0
+      - path: en0006/en0145
+        weight: 0
+      - path: en0015
+        weight: 0
+      - path: en0015/en0142
+        weight: 0
+      - path: en0015/en0143
+        weight: 0
+      - path: en0015/en0144
+        weight: 0
+      - path: en0015/en0147
+        weight: 0
+      - path: en0015/en0148
+        weight: 0
+      - path: en0015/en0149
+        weight: 0
+      - path: en0027
+        weight: 0
+      - path: en0027/en00121
+        weight: 0
+      - path: en0045
+        weight: 0
+      - path: sorkets01
+        weight: 1
+    - name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: en0045_end
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: en0045-tool_end
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: en0004
+        weight: 0
+      - path: en0004/en0146
+        weight: 0
+      - path: en0006
+        weight: 0
+      - path: en0006/en0145
+        weight: 0
+      - path: en0015
+        weight: 0
+      - path: en0015/en0142
+        weight: 0
+      - path: en0015/en0143
+        weight: 0
+      - path: en0015/en0144
+        weight: 0
+      - path: en0015/en0147
+        weight: 0
+      - path: en0015/en0148
+        weight: 0
+      - path: en0015/en0149
+        weight: 0
+      - path: en0027
+        weight: 0
+      - path: en0027/en00121
+        weight: 0
+      - path: en0045
+        weight: 0
+      - path: sorkets01
+        weight: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scenario id="transmission" name="Disassemble car engine">
+  <steps>
+    <step id="0" name="Step 0">
+      <task id="0" name="Task tr003" groupid="">
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">tr014_016</animation>
+        </animations>
+        <component id="tr014_016" name="Component tr003" />
+        <tools modelName="">
+          <tool id="plier" name="" />
+        </tools>
+        <taskImage>info_step12_hand.png</taskImage>
+        <description>Take tr003 out</description>
+      </task>
+      <task id="1" name="Task 1" groupid="">
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">tr035_07</animation>
+        </animations>
+        <component id="tr035_07" name="Component tr035_07" />
+        <tools modelName="">
+          <tool id="hand" name="" />
+        </tools>
+        <taskImage>info_step1.png</taskImage>
+        <description>Take tr035_07 out</description>
+      </task>
+      <task id="2" name="Task tr035_09" groupid="">
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">tr035_09</animation>
+        </animations>
+        <component id="tr035_09" name="Component tr035_09" />
+        <tools modelName="">
+          <tool id="socket" name="" />
+        </tools>
+        <description>Take tr035_09 out</description>
+      </task>
+      <task id="3" name="Task tr035_11" groupid="">
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">tr035_11</animation>
+        </animations>
+        <component id="tr035_11" name="Component tr035_11" />
+        <tools modelName="">
+          <tool id="wrench" name="" />
+        </tools>
+        <description>Take tr035_11 out</description>
+      </task>
+      <task id="4" name="Task tr035_01" groupid="">
+        <animations>
+          <animation runOrder="1" startOrder="0" endOrder="2">tr035_01</animation>
+        </animations>
+        <component id="tr035_01" name="Component tr035_01 " />
+        <tools modelName="">
+          <tool id="socket" name="" />
+        </tools>
+        <description>Take tr035_01 out</description>
+      </task>
+      <image>info_step1.png</image>
+      <linkedInfo>51-Step2.2.swf</linkedInfo>
+      <video>51-step2.2.ogv</video>
+    </step>
+  </steps>
+</scenario>
