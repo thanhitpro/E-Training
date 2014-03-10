@@ -1,0 +1,152 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Assets/TouchScript/Plugins/Bespoke.Common.dll'
+-r:'Assets/TouchScript/Plugins/Bespoke.Common.Osc.dll'
+-r:'Assets/TouchScript/Plugins/TouchScript.dll'
+-r:'Assets/TouchScript/Plugins/TUIOSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-define:UNITY_IPHONE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:UNITY_IPHONE_API
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:UNITY_IOS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_OSX
+'Assets/Animation Controller/ReverseAnimationController.cs'
+'Assets/Material/GUI Skin/Menu/MenuCuttingGUIScript.cs'
+'Assets/Material/GUI Skin/Menu/MenuStereoGUIScript.cs'
+'Assets/Material/GUI Skin/Menu/MenuTrainingGUIScript.cs'
+'Assets/Material/GUI Skin/Menu/MenuTransmissionGUIScript.cs'
+'Assets/Material/GUI Skin/Menu/ReverseTrainingGUIScript.cs'
+'Assets/Material/GUI Skin/Scenario Control/EditScenario.cs'
+'Assets/Material/GUI Skin/Scenario Control/EditScenarioButton.cs'
+'Assets/Material/GUI Skin/Scenario Control/ExitEditor.cs'
+'Assets/Material/GUI Skin/Scenario Control/OpenScenario.cs'
+'Assets/Material/GUI Skin/Step Control/NextButton.cs'
+'Assets/Material/GUI Skin/Step Control/PrevButton.cs'
+'Assets/Material/GUI Skin/Step Control/ShowButtonInfo.cs'
+'Assets/Material/GUI Skin/Step Control/StepTittle.cs'
+'Assets/Material/GUI Skin/Step Control/TittleNext.cs'
+'Assets/Material/GUI Skin/Step Control/TittlePrev.cs'
+'Assets/Material/GUI Skin/Tool Control/ToolbarControl.cs'
+'Assets/Material/GUI Skin/Video Control/BarBeginEndControl.cs'
+'Assets/Material/GUI Skin/Video Control/CloseButton.cs'
+'Assets/Material/GUI Skin/Video Control/FrameSlider.cs'
+'Assets/Material/GUI Skin/Video Control/PlayButton.cs'
+'Assets/Material/GUI Skin/Video Control/SliderEnd.cs'
+'Assets/Material/GUI Skin/Video Control/SliderPassed.cs'
+'Assets/Material/GUI Skin/Video Control/SliderRemain.cs'
+'Assets/Material/GUI Skin/Video Control/SliderStart.cs'
+'Assets/Material/GUI Skin/Video Control/StopButton.cs'
+'Assets/Material/GUI Skin/Video Control/VideoButton.cs'
+'Assets/Material/GUI Skin/Video Control/VideoFrame.cs'
+'Assets/Material/GUI Skin/Video Control/VideoGUIBase.cs'
+'Assets/Material/GUI Skin/Video Control/VolumeIcon.cs'
+'Assets/Material/GUI Skin/Video Control/VolumeSlider.cs'
+'Assets/Material/GUI Skin/Video Control/VolumeSliderEnd.cs'
+'Assets/Material/GUI Skin/Video Control/VolumeSliderPassed.cs'
+'Assets/Material/GUI Skin/Video Control/VolumeSliderRemain.cs'
+'Assets/Material/GUI Skin/Video Control/VolumeSliderStart.cs'
+'Assets/Scripts/Cutting Mode/CuttingTouchesControl.cs'
+'Assets/Scripts/GUIBase.cs'
+'Assets/Scripts/Object Models/AbstractCommonTask.cs'
+'Assets/Scripts/Object Models/EngineAnimation.cs'
+'Assets/Scripts/Object Models/EngineComponent.cs'
+'Assets/Scripts/Object Models/ErrorLog.cs'
+'Assets/Scripts/Object Models/ErrorLogManager.cs'
+'Assets/Scripts/Object Models/MultipleAnimationTask.cs'
+'Assets/Scripts/Object Models/SingleAnimationTask.cs'
+'Assets/Scripts/Object Models/Step.cs'
+'Assets/Scripts/Object Models/Tool.cs'
+'Assets/Scripts/ScenarioController.cs'
+'Assets/Scripts/SplashScreen/SplashScreenControl.cs'
+'Assets/Scripts/Stereo Mode/StereoTouchesControl.cs'
+'Assets/Scripts/Switch Mode/SwitchScreenController.cs'
+'Assets/Scripts/TouchDebugger.cs'
+'Assets/Scripts/Training Editor/ExpandColapseEngine.cs'
+'Assets/Scripts/Training Editor/ServerTraining.cs'
+'Assets/Scripts/Training Editor/TrainingEditorControl.cs'
+'Assets/Scripts/Training Mode/TouchEnableAnimationResearch.cs'
+'Assets/Scripts/Training Mode/TrainingModeScenarioController.cs'
+'Assets/Scripts/Training Mode/TrainingTouchesControl.cs'
+'Assets/Scripts/Training Mode/XmlReader.cs'
+'Assets/Scripts/Transmission Editor/HandleClient.cs'
+'Assets/Scripts/Transmission Editor/ScenarioEditorController.cs'
+'Assets/Scripts/Transmission Editor/Server.cs'
+'Assets/Scripts/Transmission Editor/TransmissionEditorController.cs'
+'Assets/Scripts/Utility/ChangeMaterials.cs'
+'Assets/Scripts/Utility/ChangeMaterialsTransmission.cs'
+'Assets/Scripts/Utility/FPSMeasure.cs'
+'Assets/Scripts/Utility/OrbitTouch.cs'
+'Assets/Scripts/Utility/ProjectBuildControl.cs'
+'Assets/Scripts/Utility/TabletZoomJS.cs'
+'Assets/Scripts/Utility/TextureScale.cs'
+'Assets/Scripts/Video/Scripts/C#/PlayMovie.cs'
+'Assets/Stereo/Anaglyph Pack/Script/AnaglyphizerC.cs'
+'Assets/TouchScript/Scripts/Bump.cs'
+'Assets/TouchScript/Scripts/Colored.cs'
+'Assets/TouchScript/Scripts/Options.cs'
+'Assets/TouchScript/Scripts/TSFlickDetector.cs'
+'Assets/TouchScript/Scripts/quit.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Actions/BBChangeColorAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Actions/BBDestroyObjectAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Actions/BBLoadPrefabAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Actions/BBLoadSceneAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Actions/BBTestButtonLabelAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Actions/BBTurnOffTextureAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioClient.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioContainer.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioCursor.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioListener.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioObject.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioPoint.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/CSHARP-TUIO/BBTuioTime.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/GUI stuff/BBCrosshairController.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/GUI stuff/BBPressGUITextureAction.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/GUI stuff/BBTouchableGUIObject.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/OSC.NET/BBOSCBundle.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/OSC.NET/BBOSCMessage.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/OSC.NET/BBOSCPacket.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/OSC.NET/BBOSCReceiver.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/OSC.NET/BBOSCTransmitter.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Object Manipulation/BB3dCrosshairController.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Object Manipulation/BBBasicTouchManipulation.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Object Manipulation/BBSimpleTouchableObject.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/Object Manipulation/BBTouchableButton.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/iPhoneInput fakery/BBIPhoneInput.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/iPhoneInput fakery/BBIPhoneTouchManager.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/iPhoneInput fakery/BBInputController.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/iPhoneInput fakery/BBInputDelegate.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/iPhoneInput fakery/BBTouchEvent.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/touch testing/BBStatusGUIText.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/utilities/BBNotificationServer.cs'
+'Assets/uniTouch/Plugins/uniTUIOCE/utilities/BBTouchManagerStarter.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0/System.Xml.Linq.dll'
