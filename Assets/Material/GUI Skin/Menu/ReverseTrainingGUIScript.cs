@@ -40,7 +40,7 @@ namespace ETraining.UI.Menu
 				// Load The Reverse Training mode.
 				SwitchScreenController.screenName = "ReverseTrainingMode";
 				SwitchScreenController.loadingTextureIndex = 1;
-				Application.LoadLevel("SwitchScreen");
+				Application.LoadLevel("ReverseTrainingMode");
 			}
 			else
 			{
@@ -49,7 +49,7 @@ namespace ETraining.UI.Menu
 				// Load Training mode
 				SwitchScreenController.loadingTextureIndex = 0;
 				SwitchScreenController.screenName = "TrainingMode";
-				Application.LoadLevel("SwitchScreen");
+				Application.LoadLevel("TrainingMode");
 			}
 			//checkUsed = used;
 		}

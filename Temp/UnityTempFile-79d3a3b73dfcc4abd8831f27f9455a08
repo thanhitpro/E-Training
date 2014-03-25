@@ -2,12 +2,11 @@
 -target:library
 -nowarn:0169
 -out:'Temp/Assembly-CSharp.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iPhonePlayer/Managed/UnityEngine.dll'
 -r:'Assets/TouchScript/Plugins/Bespoke.Common.dll'
 -r:'Assets/TouchScript/Plugins/Bespoke.Common.Osc.dll'
 -r:'Assets/TouchScript/Plugins/TouchScript.dll'
 -r:'Assets/TouchScript/Plugins/TUIOSharp.dll'
--r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
 -define:UNITY_IPHONE
 -define:ENABLE_MICROPHONE
 -define:ENABLE_TEXTUREID_MAP
@@ -36,9 +35,6 @@
 -define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
 -define:UNITY_4_3_4
 -define:UNITY_4_3
--define:ENABLE_PROFILER
--define:UNITY_EDITOR
--define:UNITY_EDITOR_OSX
 'Assets/Animation Controller/ReverseAnimationController.cs'
 'Assets/Material/GUI Skin/Menu/MenuCuttingGUIScript.cs'
 'Assets/Material/GUI Skin/Menu/MenuStereoGUIScript.cs'
