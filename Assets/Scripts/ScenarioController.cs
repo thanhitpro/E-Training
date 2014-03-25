@@ -42,6 +42,7 @@ namespace ETraining
 		private bool finishResetEngineFlag = false;
 		private static Dictionary<string, WWW> dictionaryWWW = null;
 		private GUIStyle boxStyle;
+		GUIStyle newGUIStyle;
 		private float xTextPostion = Screen.width;
 		private bool checkPressScenario = false;
 		public GUISkin warningBox;
@@ -158,6 +159,8 @@ namespace ETraining
 			emptyTex = new Texture2D (1, 1);
 			dictionaryWWW = new Dictionary<string, WWW>();
 			warningBox = Resources.Load("WarningBox", typeof(GUISkin)) as GUISkin;
+			newGUIStyle = new GUIStyle ();
+			newGUIStyle.alignment = TextAnchor.MiddleCenter;
 		}
 		void Start()
 	    {
@@ -297,8 +300,6 @@ namespace ETraining
 	    // Update is called once per frame
 	    void Update()
 	    {
-			GUIStyle newGUIStyle = new GUIStyle();
-			newGUIStyle.alignment = TextAnchor.MiddleLeft;
 			newGUIStyle.normal.textColor = Color.red;
 			newGUIStyle.fontSize = 15;
 
@@ -421,9 +422,6 @@ namespace ETraining
 				if (GUI.Button(new Rect(Screen.width/2 - 30, Screen.height/2 + 15, 60, 25), "OK")) {
 					showErrorLog = true;
 				}
-				
-				GUIStyle newGUIStyle = new GUIStyle();
-				newGUIStyle.alignment = TextAnchor.MiddleCenter;
 				newGUIStyle.normal.textColor = Color.white;
 				newGUIStyle.fontSize = 17;
 				
@@ -433,8 +431,6 @@ namespace ETraining
 
 			if (ErrorLogManager.normalErrorLog != "" || ErrorLogManager.warningLog != "") {
 				GUI.Box(new Rect(0, Screen.height - 30, Screen.width, 30), "", boxStyle);
-				GUIStyle newGUIStyle = new GUIStyle();
-				newGUIStyle.alignment = TextAnchor.MiddleLeft;
 				newGUIStyle.normal.textColor = Color.red;
 				newGUIStyle.fontSize = 15;
 				GUI.TextArea(new Rect(xTextPostion, Screen.height - 25
