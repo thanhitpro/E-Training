@@ -107,9 +107,9 @@ namespace ETraining.UI.Scenario
 			listStyle.onHover.background =
 				listStyle.hover.background = new Texture2D(2, 2);
 			listStyle.padding.left =
-				listStyle.padding.right =
-					listStyle.padding.top =
-					listStyle.padding.bottom = 0;
+				listStyle.padding.right = 15;
+					listStyle.padding.top = 
+					listStyle.padding.bottom = 5;
 			
 			comboBoxControl = new ComboBox(this, new Rect(0, 0, 200, 40), comboBoxList[0], comboBoxList, "button", "box", listStyle);
 			xBoxWidth = comboBoxControl.findMax();
@@ -193,10 +193,9 @@ namespace ETraining.UI.Scenario
 			{
 				selectedItemIndex = newSelectedItemIndex;
 				buttonContent = listContent[selectedItemIndex];
-				ScenarioController.scenarioFileName = buttonContent.text.Trim();
-				ScenarioController.LoadDataFromXmlFile();
-				ScenarioController.showErrorLog = false;
-				ErrorLogManager.exportNormalLog();
+				ScenarioController.scenarioFileName = buttonContent.text.Trim() ;
+				ScenarioController.resetFlag = true;
+				ScenarioController.finishResetEngine = false;
 				openScenario.setUsedStatus(false);
 			}
 		}

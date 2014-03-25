@@ -37,6 +37,9 @@ namespace ETraining
 		private TittleNext tittleNextScript;
 		private PrevButton prevButtonScript;
 		private TittlePrev tittlePrevScript;
+		public static bool resetFlag = false;
+		public static bool finishResetEngine = false;
+		private bool finishResetEngineFlag = false;
 		private static Dictionary<string, WWW> dictionaryWWW = null;
 		private GUIStyle boxStyle;
 		private float xTextPostion = Screen.width;
@@ -76,6 +79,13 @@ namespace ETraining
 	   IEnumerator WaitInSeconds(float waitTime) {
 	        yield return new WaitForSeconds(waitTime);        
 	    }
+
+		IEnumerator LoadXmlFile() {
+			yield return new WaitForSeconds(1.0f);
+			LoadDataFromXmlFile();
+			ScenarioController.showErrorLog = false;
+			ErrorLogManager.exportNormalLog();
+		}
 		
 		public	IEnumerator WaitToResetTools() 
 		{        
@@ -372,17 +382,26 @@ namespace ETraining
 			}
 
 			// The prev button in right side bar or the prev button in title bar is touched or clicked
-			if (tittlePrevScript.used|| prevButtonScript.used)
+			if (tittlePrevScript.used|| prevButtonScript.used || ScenarioController.resetFlag)
 			{
 				// reset them to false, it means not clicked or touched
 				prevButtonScript.used = false;
 				tittlePrevScript.used = false;
 
 				// run back to previous task
-				if (ErrorLogManager.errorFlag) {
+				if (ErrorLogManager.errorFlag && !ScenarioController.resetFlag) {
 					checkPressScenario = true;
 					return;
 				}
+
+				if (ErrorLogManager.errorFlag && ScenarioController.resetFlag) {
+					ScenarioController.finishResetEngine = true;
+					ScenarioController.resetFlag = false;
+					
+					StartCoroutine(LoadXmlFile());
+					return;
+				}
+
 				autoPrev();        	
 			}
 			
@@ -620,7 +639,14 @@ namespace ETraining
 		            if (-1 == taskOrder) // out of index
 		            {
 		                stepOrder--;
-						if(stepOrder == -1) {stepOrder = 0; taskOrder = 0;}
+						if(stepOrder == -1) {
+							stepOrder = 0; taskOrder = 0;
+							if (ScenarioController.resetFlag && !ScenarioController.finishResetEngine) {
+								ScenarioController.finishResetEngine = true;
+								ScenarioController.resetFlag = false;
+								finishResetEngineFlag = true;
+							}	
+						}
 						else taskOrder = scenario[stepOrder].ListOfTask.Length - 1;;
 		
 		            }
@@ -707,6 +733,11 @@ namespace ETraining
 						videoBtnScript.setVideoName(getCurrentStep().VideoPath);
 						videoBtnScript.setShowGUI(true);
 					}
+
+			if (finishResetEngineFlag) {
+				StartCoroutine(LoadXmlFile());
+				finishResetEngineFlag = false;
+			}
 		}
 
 		/**
